@@ -10,7 +10,7 @@ SETUP:
 My perosnal setup was a two VMs deployed by virtual box one containg Kali linux to be used as the attack machine which will leverage the rockyou.txt password list and one using ubuntu as the victum machine. In order to allow my victium machine to be vulnerable I turned off the default ufw on the machine and opened port 22 on the machine. Both VMs were already deployed and setup before lab.
 Target Machine setup:
 
-https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/main/Screenshot%202025-10-26%20192340.png
+https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/main/Screenshot%202025-10-26%20192340.png?raw=true
 
 Enumeration:
 ---------------------------------------------------------------------------------------------------------------------------------
