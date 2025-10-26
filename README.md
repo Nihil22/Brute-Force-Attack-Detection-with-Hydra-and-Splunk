@@ -15,13 +15,17 @@ Enumeration:
 To enumarte the network i conducted a Nmap scan on the attack machine to scan the local network for active host and open ssh port (22)
 
 IMG:
+
 Identified the Ubuntu victim with open port 22
+
 IMG:
 
 SSH Brute Force Attack using Hydra:
 ---------------------------------------------------------------------------------------------------------------------------------
 used hydra to attempt brute force login against the target
+
 Img:
+
 Hydra trys passwords from the rockyou.txt list to gain access to victim SSH account
 
 Monitoring Vicim logs:
@@ -29,6 +33,7 @@ Monitoring Vicim logs:
 analyzed linux authentication logs to detect brute force
 
 img:
+
 Looked for fail login attempts which ID brute force
 
 SIEM Ingestion
