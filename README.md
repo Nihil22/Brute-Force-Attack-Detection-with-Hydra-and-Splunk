@@ -26,7 +26,7 @@ SSH Brute Force Attack using Hydra:
 ---------------------------------------------------------------------------------------------------------------------------------
 used hydra to attempt brute force login against the target
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/2ddb8a0275ffdd677ddeac3d5ee910b7a522a580/Screenshot%202025-10-26%20194445.png)
 
 Hydra trys passwords from the rockyou.txt list to gain access to victim SSH account
 
