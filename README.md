@@ -16,7 +16,7 @@ Enumeration:
 ---------------------------------------------------------------------------------------------------------------------------------
 To enumarte the network i conducted a Nmap scan on the attack machine to scan the local network for active host and open ssh port (22)
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/7b3187941208fae46653cbc57e9067e4e38a54bd/Screenshot%202025-10-26%20194433.png)
 
 Identified the Ubuntu victim with open port 22
 
