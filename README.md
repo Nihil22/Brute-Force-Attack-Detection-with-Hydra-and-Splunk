@@ -20,13 +20,13 @@ To enumarte the network i conducted a Nmap scan on the attack machine to scan th
 
 Identified the Ubuntu victim with open port 22
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/2ddb8a0275ffdd677ddeac3d5ee910b7a522a580/Screenshot%202025-10-26%20194445.png)
 
 SSH Brute Force Attack using Hydra:
 ---------------------------------------------------------------------------------------------------------------------------------
 used hydra to attempt brute force login against the target
 
-![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/2ddb8a0275ffdd677ddeac3d5ee910b7a522a580/Screenshot%202025-10-26%20194445.png)
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/2ddb8a0275ffdd677ddeac3d5ee910b7a522a580/Screenshot%202025-10-26%20194453.png)
 
 Hydra trys passwords from the rockyou.txt list to gain access to victim SSH account
 
@@ -34,7 +34,7 @@ Monitoring Vicim logs:
 ---------------------------------------------------------------------------------------------------------------------------------
 analyzed linux authentication logs to detect brute force
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/820beed419e4acd0e0968d5bb43557c8ebd70047/Screenshot%202025-10-26%20194501.png)
 
 Looked for fail login attempts which ID brute force
 
@@ -42,7 +42,7 @@ SIEM Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
 Ensured the logs were formatted and readable, then install and configured Splunk Universal Forwarder on Ubuntu VM:
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/820beed419e4acd0e0968d5bb43557c8ebd70047/Screenshot%202025-10-26%20194516.png)
 
 Log Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
