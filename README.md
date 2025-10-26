@@ -16,17 +16,17 @@ Enumeration:
 ---------------------------------------------------------------------------------------------------------------------------------
 To enumarte the network i conducted a Nmap scan on the attack machine to scan the local network for active host and open ssh port (22)
 
-IMG:
+![image alt]()
 
 Identified the Ubuntu victim with open port 22
 
-IMG:
+![image alt]()
 
 SSH Brute Force Attack using Hydra:
 ---------------------------------------------------------------------------------------------------------------------------------
 used hydra to attempt brute force login against the target
 
-Img:
+![image alt]()
 
 Hydra trys passwords from the rockyou.txt list to gain access to victim SSH account
 
@@ -34,7 +34,7 @@ Monitoring Vicim logs:
 ---------------------------------------------------------------------------------------------------------------------------------
 analyzed linux authentication logs to detect brute force
 
-img:
+![image alt]()
 
 Looked for fail login attempts which ID brute force
 
@@ -42,19 +42,19 @@ SIEM Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
 Ensured the logs were formatted and readable, then install and configured Splunk Universal Forwarder on Ubuntu VM:
 
-Img:
+![image alt]()
 
 Log Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
 verified that the victim machine logs were indexed to splunk. Searched for login faliures to confirm
 
-Img:
+![image alt]()
 
 DETECTION and Alerting
 ---------------------------------------------------------------------------------------------------------------------------------
 created splunk alerts for Brute force detection, filtered for repeated login.
 
-Img:
+![image alt]()
 
 Tools Used
 ---------------------------------------------------------------------------------------------------------------------------------
