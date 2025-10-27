@@ -38,6 +38,8 @@ analyzed linux authentication logs to detect brute force
 
 Looked for fail login attempts which ID brute force
 
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/6eaef21708bc66f86a7bc51a7b2e901d91c79e89/Screenshot%202025-10-26%20194509.png)
+
 SIEM Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
 Ensured the logs were formatted and readable, then install and configured Splunk Universal Forwarder on Ubuntu VM:
@@ -48,13 +50,13 @@ Log Ingestion
 ---------------------------------------------------------------------------------------------------------------------------------
 verified that the victim machine logs were indexed to splunk. Searched for login faliures to confirm
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/6eaef21708bc66f86a7bc51a7b2e901d91c79e89/Screenshot%202025-10-26%20194525.png)
 
 DETECTION and Alerting
 ---------------------------------------------------------------------------------------------------------------------------------
 created splunk alerts for Brute force detection, filtered for repeated login.
 
-![image alt]()
+![image alt](https://github.com/Nihil22/Brute-Force-Attack-Detection-with-Hydra-and-Splunk/blob/6eaef21708bc66f86a7bc51a7b2e901d91c79e89/Screenshot%202025-10-26%20194532.png)
 
 Tools Used
 ---------------------------------------------------------------------------------------------------------------------------------
